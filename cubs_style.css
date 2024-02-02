@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+
+nav img{
+    margin-left:1.5vw;
+    width:35vh;
+    height:auto;
+}
+nav ul{
+    margin-right:2vw;
+
+}
+nav ul li{
+    display:inline-block;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 11pt;
+    
+}
+nav a:hover {
+    color: #FFCA00;
+}
+header{
+    margin-top: 1vh;
+    text-align: center;
+    color: #FFCA00;
+}
+#home{
+    background-image: url(imagenes/fondocubswp1.jpg);
+    background-color: #ffffff;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#proyectos{
+    background-image: url(imagenes/fondocubswp2.jpg);
+    background-color: #ffffff;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-home{
+    background-color:rgb(249, 249, 249, 0.95);
+    margin-top: 1vh;
+    margin-left: 30vw;
+    margin-right: 0.5vw;
+    margin-bottom: 1vh;
+    text-align: justify;
+    border: rgb(249, 249, 249, 0.90);
+    border-radius: 3px;
+    }
+.section-proyectos{
+    background-color:rgb(249, 249, 249, 0.75);
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    margin-right: 30vw;
+    margin-bottom: 1vh;
+    text-align: justify;
+    border: rgb(249, 249, 249, 0.90);
+    border-radius: 3px;
+        }    
+section p{
+    padding: 0.5vw;
+    font-size: 11pt;
+}
+section li{
+    list-style: square;
+    margin-left: 3vw ;
+    font-size: 10pt;
+}
+section h5{
+    text-align: center;
+    margin-bottom: 4vh;
+}
+#boton{
+    text-align: center;
+}
+section a{
+    display: inline-block;
+    background-color: #FFCA00;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    padding: 0.5vw;
+    border-radius: 5px;
+    border: #FFCA00;
+    margin-bottom: 1vh;
+}
+section a:hover{
+    background-color: #767171;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+footer img{
+    margin-left:1.5vw;
+    width:4%;
+    height:auto;
+    padding: 1vh;
+}
