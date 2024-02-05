@@ -11,13 +11,14 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 12vh;
+    flex-wrap: wrap;
+    height: 16vh;
 }
 
 nav img{
     margin-left:1.5vw;
-    width:35vh;
-    height:auto;
+    width:auto;
+    height:50%;
 }
 nav ul{
     margin-right:2vw;
@@ -94,6 +95,9 @@ section h5{
 #boton{
     text-align: center;
 }
+#boton a{
+    color: black;
+}
 section a{
     display: inline-block;
     background-color: #FFCA00;
@@ -119,7 +123,7 @@ footer{
 }
 footer img{
     margin-left:1.5vw;
-    width:4%;
-    height:auto;
+    width:auto;
+    height:10%;
     padding: 1vh;
 }
